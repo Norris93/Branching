@@ -1,0 +1,14 @@
+---
+title: "DiamondFile"
+author: "Norris Jaber"
+date: "3/19/2021"
+output: pdf_document
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+  select(price,color,x)
+```
+
